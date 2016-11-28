@@ -5,7 +5,7 @@ Namespace Controllers
     Public Class RefillController
         Inherits Controller
 
-        Dim logger As ILog = LogManager.GetLogger("SMSSystem")
+        Public logger As ILog = LogManager.GetLogger("SMSSystem")
 
         ' GET: Refill
         Function Index(ByVal message As String) As String

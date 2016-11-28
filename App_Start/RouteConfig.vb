@@ -10,33 +10,9 @@ Public Module RouteConfig
         routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
 
         routes.MapRoute(
-            name:="RegistrationRoute",
-            url:="{controller}/{message}/{action}",
-            defaults:=New With {.controller = "Registration", .action = "Index"}
-        )
-
-        routes.MapRoute(
-            name:="RefillRoute",
-            url:="{controller}/{message}/{action}",
-            defaults:=New With {.controller = "Refill", .action = "Index"}
-        )
-
-        routes.MapRoute(
-            name:="QoutaRoute",
-            url:="{controller}/{message}/{action}",
-            defaults:=New With {.controller = "Qouta", .action = "Index"}
-        )
-
-        routes.MapRoute(
-            name:="TransferRoute",
-            url:="{controller}/{message}/{action}",
-            defaults:=New With {.controller = "Transfer", .action = "Index"}
-        )
-
-        routes.MapRoute(
-            name:="SendSMSRoute",
-            url:="{controller}/{message}/{action}",
-            defaults:=New With {.controller = "SendSMS", .action = "Index"}
+            name:="Default",
+            url:="{message}/{controller}/{action}",
+            defaults:=New With {.controller = "SMSSystem", .action = "Index", .message = ""}
         )
 
     End Sub

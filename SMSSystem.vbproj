@@ -153,6 +153,7 @@
     <Compile Include="Controllers\RefillController.vb" />
     <Compile Include="Controllers\RegistrationController.vb" />
     <Compile Include="Controllers\SendSMSController.vb" />
+    <Compile Include="Controllers\SMSSystemController.vb" />
     <Compile Include="Controllers\TransferController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -202,11 +203,6 @@
     </None>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Views\Registration\Index.vbhtml" />
-    <Content Include="Views\Refill\Index.vbhtml" />
-    <Content Include="Views\Qouta\Index.vbhtml" />
-    <Content Include="Views\Transfer\Index.vbhtml" />
-    <Content Include="Views\SendSMS\Index.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
