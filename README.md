@@ -6,7 +6,7 @@ SMS Registration System
 1 - التسجيل :
 
 
-localhost/Registration/ServiceType#SimType#SimNumber
+localhost/Registration/ServiceType-SimType-SimNumber
 
 <p dir="rtl">
 حيث المدخلات تكون كالأتي :
@@ -17,7 +17,8 @@ localhost/Registration/ServiceType#SimType#SimNumber
 
 <p dir="rtl">
 فمثلا عندما يريد صاحب شفرة الدفع المسبق التي رقمها 0911234567 التسجيل في الخدمة، يتم الطلب كالأتي :
-localhost/Registration/1#2#0911234567
+
+localhost/Registration/1-2-0911234567
 
 <p dir="rtl">
 النقاط التي يجب مراعاتها :
@@ -49,13 +50,13 @@ localhost/Registration/1#2#0911234567
 وذلك من خلال الطلب التالي :
 
 
-localhost/Refill/ServiceType#CardNumber#SimNumber
+localhost/Refill/ServiceType-CardNumber-SimNumber
 
 <p dir="rtl">
 مثلا :
 
 
-localhost/Refill/2#1234567890129#0912543514
+localhost/Refill/2-1234567890129-0912543514
 
 <p dir="rtl">
 حيث المدخلات تكون كالأتي :
@@ -82,12 +83,12 @@ localhost/Refill/2#1234567890129#0912543514
 وذلك من خلال الطلب التالي :
 
 
-localhost/Quota/ServiceType#SimNumber
+localhost/Quota/ServiceType-SimNumber
 <p dir="rtl">
 مثلا :
 
 
-localhost/Quota/3#0914562501
+localhost/Quota/3-0914562501
 
 <p dir="rtl">
 حيث المدخلات تكون كالأتي :
@@ -107,13 +108,13 @@ localhost/Quota/3#0914562501
 وذلك من خلال الطلب التالي :
 
 
-localhost/Transfer/ServiceType#SimNumber1#SimNumber2#Pointes 
+localhost/Transfer/ServiceType-SimNumber1-SimNumber2-Pointes 
 
 <p dir="rtl">
 مثلا
 
 
-localhost/Transfer/4#0914562101#0914850022#15
+localhost/Transfer/4-0914562101-0914850022-15
 
 <p dir="rtl">
 النقاط التي يجب مراعاتها :
