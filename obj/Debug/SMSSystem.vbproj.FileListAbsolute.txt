@@ -99,3 +99,4 @@ C:\Users\HKI\Documents\Visual Studio 2015\Projects\SMSSystem\sms\obj\Debug\SMSSy
 C:\Users\HKI\Documents\Visual Studio 2015\Projects\SMSSystem\sms\obj\Debug\SMSSystem.dll
 C:\Users\HKI\Documents\Visual Studio 2015\Projects\SMSSystem\sms\obj\Debug\SMSSystem.xml
 C:\Users\HKI\Documents\Visual Studio 2015\Projects\SMSSystem\sms\obj\Debug\SMSSystem.pdb
+C:\Users\HKI\Documents\Visual Studio 2015\Projects\SMSSystem\sms\obj\Debug\SMSSystem.vbprojResolveAssemblyReference.cache
